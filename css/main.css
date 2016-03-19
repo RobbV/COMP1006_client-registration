@@ -1,0 +1,86 @@
+/* start of CSS DOC
+Robbert Van der Grift COMP 1006 Assignment#1
+-----------------------------------------------------------------*/
+body {
+    background-color: steelblue;
+}
+header {
+    /*outline: 2px dashed lightcoral;*/
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+    border: 2px solid #444444;
+    border-radius:2em;
+    margin:10% 25%;
+    width: 50%;
+}
+h1 {
+    /*outline: 2px dashed lightgreen;*/
+    margin-left: 35%;
+    font-weight: bolder
+}
+h2 {
+    margin-left: 25%;
+    font-weight: bolder;
+    font-size: 2em;
+   /*outline: 2px dashed lightskyblue;*/
+}
+h3 {
+    font-weight: bolder;
+    margin-left: 38%;
+    margin-bottom: 15%;
+}
+form {
+    display: inline;
+}
+form.app {
+    display: block;
+}
+button#app {
+    margin-right: 50%;
+    margin-bottom: 10%;
+}
+.buttons {
+    /*outline: 2px solid crimson;*/
+    margin-top: 10%;
+    margin-left: 4%;
+    padding-bottom: 15%;
+}
+select {
+    margin-right: 10%;
+}
+
+.buttons2 {
+    /*outline: 2px solid crimson;*/
+    margin-top: 10%;
+    margin-left: 4%;
+    padding-bottom: 5%;
+}
+#save {
+    position: relative;
+    left: 10%;
+    bottom: 5em;
+}
+div#border {
+    background-color: #444444;
+    border: 2px solid ;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 5px #888888;
+    margin-right: 5%;
+    padding: 2%;
+}
+button { 
+    padding: 1%;
+    margin-left: 5%;
+}
+fieldset {
+    margin-left: 36%;
+    margin-bottom: 10%;
+}
+input {
+    display: block;
+}
+#email{
+    margin-left: 15%;
+}
